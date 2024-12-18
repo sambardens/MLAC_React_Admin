@@ -1,0 +1,48 @@
+{
+  "name": "major-labl-admin-react",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p 1198",
+    "lint": "next lint",
+    "format": "prettier --write \"./**/*.{js,jsx,json}\""
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.1.0",
+    "@chakra-ui/next-js": "^2.1.4",
+    "@chakra-ui/react": "^2.7.1",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@react-pdf/renderer": "^3.1.12",
+    "@reduxjs/toolkit": "^1.9.5",
+    "axios": "^1.4.0",
+    "chakra-react-select": "^4.6.0",
+    "eslint": "8.43.0",
+    "eslint-config-next": "13.4.7",
+    "file-saver": "^2.0.5",
+    "formik": "^2.4.2",
+    "framer-motion": "^10.12.17",
+    "jszip": "^3.10.1",
+    "lodash.debounce": "^4.0.8",
+    "next": "13.4.7",
+    "nprogress": "^0.2.0",
+    "react": "18.2.0",
+    "react-countup": "^6.4.2",
+    "react-dom": "18.2.0",
+    "react-h5-audio-player": "^3.8.6",
+    "react-loader-spinner": "^5.3.4",
+    "react-paginate": "^8.2.0",
+    "react-parallax-tilt": "^1.7.158",
+    "react-redux": "^8.1.1",
+    "recharts": "^2.7.2",
+    "redux-persist": "^6.0.0",
+    "yup": "^1.2.0"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^8.0.1",
+    "@trivago/prettier-plugin-sort-imports": "^4.1.1",
+    "prettier": "^2.8.8"
+  }
+}
